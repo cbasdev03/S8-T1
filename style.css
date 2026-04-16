@@ -1,12 +1,4 @@
 /* Configuración básica */
-body {
-    margin: 0;
-    height: 100vh;         /* 100% de la altura de la ventana */
-    display: flex;         /* Activa el modo flexible */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente */
-    background-color: #f4f4f4;
-}
 
 /* Contenedor principal de los 6 divs */
 .contenedor-grid {
