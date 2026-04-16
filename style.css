@@ -1,0 +1,56 @@
+/* Configuración básica */
+body {
+    margin: 0;
+    height: 100vh;         /* 100% de la altura de la ventana */
+    display: flex;         /* Activa el modo flexible */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    background-color: #f4f4f4;
+}
+
+/* Contenedor principal de los 6 divs */
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; /* Espacio entre los cuadros */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo de cada cuadro individual */
+.caja {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+/* Estilo para tus imágenes */
+.caja img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.caja p {
+    color: #333;
+    font-weight: bold;
+}
+
+.caja-centrada {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 90%;        /* Para que no se salga en móviles */
+    text-align: center;
+}
+
+.caja-centrada img {
+    max-width: 100%;       /* Imagen responsiva */
+    height: auto;
+    display: block;
+}
